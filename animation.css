@@ -1,0 +1,29 @@
+body {
+    margin:0;
+}
+.content
+{
+    background-color: chocolate;
+    width:200px;
+    height:300px;
+    position:absolute;
+    top: 30%;
+    left: 91%;
+    transform: translate(-50%,-50%)  
+    border-radius: 4px;
+    animation: animate 2s linear infinite;                          
+    
+}
+@keyframes  animate
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+    200%
+    {
+        top: 0;
+        right: 50;
+    }
+}                                                                                                                                    
